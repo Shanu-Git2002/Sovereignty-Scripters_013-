@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Icons</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            width: 25%;
+            text-align: center;
+        }
+        .icons {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 20px 0;
+            position: relative;
+        }
+        .icons img {
+            width: 40px;
+            height: 40px;
+            transition: transform 0.3s;
+            animation: float 3s infinite;
+        }
+        .icons img:hover {
+            transform: scale(1.1); /* Zoom out on hover */
+        }
+        #icon2 {
+            position: relative;
+        }
+        #icon2::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 100%;
+            width: 150px;
+            height: 0;
+            border-top: 2px dashed black;
+            animation: dash 3s infinite;
+            transform-origin: left;
+            transform: translateY(-50%) rotate(0deg);
+        }
+        #icon7 {
+            animation: rotate 3s infinite;
+        }
+        @keyframes float {
+            0% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+        @keyframes dash {
+            0% {
+                transform: translateY(-50%) rotate(0deg);
+            }
+            50% {
+                transform: translateY(-50%) rotate(15deg);
+            }
+            100% {
+                transform: translateY(-50%) rotate(0deg);
+            }
+        }
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+            }
+            50% {
+                transform: rotate(20deg);
+            }
+            100% {
+                transform: rotate(0deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="mainContainer" class="container">
+        <h2 id="headerText">Cut your $tack.<br>Do It all In Apollo.</h2>
+        <div id="iconsRow" class="icons">
+            <img id="icon1" src="https://i.pinimg.com/564x/7f/ed/4d/7fed4df7bd1f2c7cb2e1323df938e910.jpg" alt="Icon 1">
+            <img id="icon2" src="https://cdn.prod.website-files.com/65a80db6a97ea2f4fd5302cd/65a80db6a97ea2f4fd5316ac_Outreach.png" alt="Icon 2">
+            <img id="icon3" src="https://pbs.twimg.com/profile_images/1574482929203351553/J2L9r-Oy_400x400.png" alt="Icon 3">
+            <img id="icon4" src="https://cdn-1.webcatalog.io/catalog/salesloft/salesloft-icon-filled-256.webp?v=1714775725719" alt="Icon 4">
+            <img id="icon5" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS7ozVShrHQvW7--8NnLoABwGw6_5cO-FE6bi6ZL_q5JJqoL2LD" alt="Icon 5">
+            <img id="icon6" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQPnWpsWCyVCQlpRXdkfQc4uZvqO7iwkflokhpfRTy058PWmktL" alt="Icon 6">
+            <img id="icon7" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRSCSfgn9qnENGBswNYWRKKgxnFDn43afZwbe01cneMeqeRedmC" alt="Icon 7">
+        </div>
+        <p id="footerText">Save time and money with the easiest, most complete sales enablement platform.</p>
+    </div>
+</body>
+</html>
