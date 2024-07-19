@@ -428,6 +428,11 @@ body {
     /* margin-bottom: 30px; */
     width: 100%;
 }
+/* typing effect */
+
+
+
+
 
 .section-1_1-container {
     /* border: solid black; */
@@ -457,7 +462,7 @@ body {
 .section-1_1-content>div:nth-of-type(1)>h1 {
     color: rgba(0, 0, 0, 0.87);
     text-align: left;
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: -0.01em;
     line-height: 120%;
     font-size: 4rem;
