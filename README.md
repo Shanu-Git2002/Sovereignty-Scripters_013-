@@ -25,7 +25,7 @@
 ## Screenshots
 <div>
 <h3>Home Page </h3>
-  <img src="https://github.com/Shanu-Git2002/PdfPageRemover-/assets/121647061/e012093f-9224-42bf-afba-b324a2b61f98.png" width="370" height="230px"> 
+  <img src="BOOTSTRAP/assets/Screenshot (22).png" width="370" height="230px"> 
 </div>
 
 <div> 
