@@ -6,19 +6,12 @@
 <div><img src="https://assets-global.website-files.com/62eb542250d6566e8b77a3d0/65502b058950083da616ff6e_1(73).png" width="400" height="230px"> </div>
 
 ## Features
-<div>Features of a PDF Page Remover web application include functionalities and capabilities that enhance the user experience and provide utility in removing specific pages from PDF documents. </div>
+<div>Features of a Apollo web application include functionalities and capabilities that enhance the user experience and provide utility in sales B2B connection. </div>
 
-* Signup via Email and password
-* Signin via Email and Password
-* Sign in via Google Authentication
-* Sign in via Phone Otp Verifiaction
-* File Upload
-* Page Selection (Single and Multiple pages can Choose)
-* Page Preview
-* Page Removal : Perform the actual removal of the selected pages from the PDF document.
-* Click to Download Modified Pdf
-* View Your Pdf on Your Browser
-* Logout
+* Create automated
+* multi-step touchpoints for sales outreach
+* including emails
+* calls, and LinkedIn tasks
 
 <div> 
 <h3>Project Logo</h3>
