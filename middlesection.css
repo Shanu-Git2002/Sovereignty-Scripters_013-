@@ -1,0 +1,196 @@
+/* Default styles for all screen sizes */
+body {
+    margin: 0;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: '__soehne_42618b', '__soehne_Fallback_42618b';
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    background-color: #fff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./assets/background-img.svg');
+
+}
+
+.container-2 {
+
+    background-image: none;
+
+}
+
+.container-2 h1 {
+    margin: 0;
+}
+
+.inner-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 40rem;
+    padding: 10px;
+}
+
+.inner-div h1 {
+    letter-spacing: 0;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 120%;
+}
+
+.inner-div-2 {
+    align-items: start;
+    max-width: 80rem;
+}
+
+.inner-div-2 h1 {
+    margin: 0;
+}
+
+.inner-div p {
+    margin: 0;
+    font-family: '__soehne_42618b', '__soehne_Fallback_42618b';
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+}
+
+.custom-btn {
+    padding: 10px 20px;
+    margin: 25px 2px;
+    border-radius: 5px;
+}
+
+.custom-warning-btn {
+    padding: 10px 20px;
+    margin: 25px 2px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.custom-light-btn {
+    padding: 10px 20px;
+    margin: 25px 2px;
+    border: 2px solid;
+    font-weight: bold;
+    border-color: #D6D6D8;
+    border-radius: 5px;
+
+}
+
+.custom-btn:hover {
+    background-color: #2dd235;
+}
+
+.image-section {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 40px;
+    border-radius: 15px;
+}
+
+.main-img {
+    background-image: url('./assets/image.png');
+    height: 600px;
+    max-width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0 20px;
+    border-radius: 25px;
+    margin: 0 40px;
+
+}
+
+.container-3 {
+    margin: 30px 40px;
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+}
+
+
+.left-side {
+    width: 65%;
+    padding:  20px 0 0 40px;
+
+}
+.left-side h3{
+line-height: 130%;
+letter-spacing: 0.01em;
+font-size: 2.25rem;
+max-width: 30rem;
+}
+
+.left-side p{
+    margin: 0;
+    font-family: '__soehne_42618b', '__soehne_Fallback_42618b';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+}
+
+.bold-text{
+    font-weight: bold;
+    font-size: 24px;
+}
+.flex-row-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.flex-row-div i{
+    margin: 0 10px  ;
+
+}
+.flex-column-div{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+
+/* Media queries for different screen sizes */
+
+/* Large screens (laptops) */
+/* @media (min-width: 1024px) {
+   
+} */
+
+/* Medium screens (tablets) */
+/* @media (min-width: 768px) and (max-width: 1023px) {
+  
+} */
+
+/* Small screens (mobile phones) */
+@media (max-width: 767px) {
+
+    /* .main-img {
+        background-image: url('./assets/mobile-img.png');
+        height: 600px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 0 20px;
+        border-radius: 25px;
+        padding: unset;
+
+    } */
+
+}
