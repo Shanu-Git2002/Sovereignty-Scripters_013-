@@ -7,7 +7,7 @@
 
 ## Features
 <div>Features of a Apollo web application include functionalities and capabilities that enhance the user experience and provide utility in sales B2B connection. </div>
-* visit your site here: https://mellow-lamington-8db076.netlify.app/
+visit your site here: https://mellow-lamington-8db076.netlify.app/
 
 * Create automated
 * multi-step touchpoints for sales outreach
